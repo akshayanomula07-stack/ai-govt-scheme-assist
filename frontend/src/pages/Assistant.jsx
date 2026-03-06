@@ -3,7 +3,11 @@ import { useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import './Assistant.css'
 
+<<<<<<< HEAD
 const API = "https://ai-govt-scheme-assist-2.onrender.com"
+=======
+const API = 'http://localhost:8000/api'
+>>>>>>> 812f58cb66a96672a1d57197d45af163b972da12
 
 const CATEGORIES = [
     'All', 'Agriculture', 'Education', 'Healthcare', 'MSME & Entrepreneurship',
